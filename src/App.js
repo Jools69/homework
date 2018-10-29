@@ -57,7 +57,6 @@ class App extends Component {
                 });
             }).catch(err => {console.log("addHomework callback error caught: " + err)});
   }
-
   
   handleAdd = (e) =>
   {
@@ -66,7 +65,7 @@ class App extends Component {
       {
         showAdd: true
       });
-      console.log("showAdd after = " + this.state.showAdd);
+    console.log("showAdd after = " + this.state.showAdd);
   }
 
   render() 

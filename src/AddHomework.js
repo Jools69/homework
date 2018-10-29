@@ -32,13 +32,6 @@ class AddHomework extends Component
         this.props.ahprops.addHomework (this.state);
     }
     
-    componentDidMount ()
-    {
-        $('.datepicker').datepicker({format: 'dd/mm/yyyy',
-                                     defaultDate: Date.now(),
-                                     onSet: this.handleChange });
-    }
-    
     render()
     {
         return (
